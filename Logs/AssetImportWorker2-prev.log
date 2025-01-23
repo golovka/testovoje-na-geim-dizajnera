@@ -1,0 +1,498 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 7597 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/korol/testovoje
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55843
+Successfully changed project path to: C:/Users/korol/testovoje
+C:/Users/korol/testovoje
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25508] Host "[IP] 26.155.126.39 [Port] 0 [Flags] 2 [Guid] 2007358940 [EditorId] 2007358940 [Version] 1048832 [Id] WindowsEditor(7,Andrei) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25508] Host "[IP] 26.155.126.39 [Port] 0 [Flags] 2 [Guid] 2007358940 [EditorId] 2007358940 [Version] 1048832 [Id] WindowsEditor(7,Andrei) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 118.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/korol/testovoje/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008770 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1156ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020632 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\korol\testovoje\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\korol\testovoje\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1577ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (57.6 KB). Loaded Objects now: 3546.
+Memory consumption went from 137.7 MB to 137.7 MB.
+Total: 11.559900 ms (FindLiveObjects: 1.004000 ms CreateObjectMapping: 0.300800 ms MarkObjects: 9.717600 ms  DeleteObjects: 0.533200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25379.396395 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png
+  artifactKey: Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png using Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce1602385d2b8640ff0fef3c563cc9a') in 0.191440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSignal.png
+  artifactKey: Guid(ad2e3e92b00839c4e991ca602ef19822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSignal.png using Guid(ad2e3e92b00839c4e991ca602ef19822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d20c6d572850c64f7c6f5e616b6528f') in 0.049901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_right.png
+  artifactKey: Guid(5197e5687d16e554ea60221ab38ec35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_right.png using Guid(5197e5687d16e554ea60221ab38ec35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1784ca0d3f8bb00bc2b36c0c37e7a2') in 0.075511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay@2x.png
+  artifactKey: Guid(4d7e6e570e9d65a4c9a994783a0652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay@2x.png using Guid(4d7e6e570e9d65a4c9a994783a0652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c305b2249e0cffc535ecf56525113e5') in 0.062059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ground textures pack/Dry ground/diffuse.tga
+  artifactKey: Guid(f5d1de47f0f760544a5596ceb8cc895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Dry ground/diffuse.tga using Guid(f5d1de47f0f760544a5596ceb8cc895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d41863001753bf7c2de2bb4ce55f29') in 0.056481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ground textures pack/Lava/diffuse.tga
+  artifactKey: Guid(cc2d009b31ce2134a9438a34a78632a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Lava/diffuse.tga using Guid(cc2d009b31ce2134a9438a34a78632a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac1dc0081ccb9d6e7e58ae440e6d590') in 3.128261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_left.png
+  artifactKey: Guid(44539289dc168c7459c80fe1f9f061e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_left.png using Guid(44539289dc168c7459c80fe1f9f061e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0d0e0a00d438a6c8e23077dfea7b1') in 1.427829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png
+  artifactKey: Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png using Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e11469403602e5b79121ae77aed98c') in 0.126804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_left.png
+  artifactKey: Guid(764d25cbe34d80248aa19a09604d65bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_left.png using Guid(764d25cbe34d80248aa19a09604d65bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f033b8fae7fa9cb35f6b07df73a57699') in 0.072953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Ground textures pack/Lava/preview.jpg
+  artifactKey: Guid(70e8908fa6e673249ad9ff9cb1f1e13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Lava/preview.jpg using Guid(70e8908fa6e673249ad9ff9cb1f1e13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd855b71edb4519ee9b79f0f8edb4bc09') in 0.100243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview@2x.png
+  artifactKey: Guid(3168140d6f409d0448447f18568d9482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview@2x.png using Guid(3168140d6f409d0448447f18568d9482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92215ccd02e690a2f5e1f35b9cf813f') in 0.059164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.227691 seconds.
+  path: Assets/SimpleNaturePack/Models/NewBrush.brush
+  artifactKey: Guid(280b6fdc8cf2bcd449743b5ac6be8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/NewBrush.brush using Guid(280b6fdc8cf2bcd449743b5ac6be8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e755d9377a8c08cefac409198e1348d') in 0.062328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.865159 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png
+  artifactKey: Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png using Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9684cb1445ee3063290dad2f5d572924') in 0.077779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png
+  artifactKey: Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png using Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc22f6716162458a294ce50e316410b') in 0.058853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled.png
+  artifactKey: Guid(0e5ba0f04df278944a8f5a62f64f5aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled.png using Guid(0e5ba0f04df278944a8f5a62f64f5aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e606f68fc99a051736f550aabc37b68') in 0.048809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSelector.png
+  artifactKey: Guid(06bf6150656339941aa98e175a995445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSelector.png using Guid(06bf6150656339941aa98e175a995445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f801ce9984d8014486d773ff3d14ac68') in 0.065838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay@2x.png
+  artifactKey: Guid(7f854f490da24e54f9e8383e446b5d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay@2x.png using Guid(7f854f490da24e54f9e8383e446b5d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8495ce1531c059ce8ac4897b44772c4') in 0.079565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview.png
+  artifactKey: Guid(519d97e745e55f041b609f3666cbc037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview.png using Guid(519d97e745e55f041b609f3666cbc037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6796a054fe2af26d816cf0e8c4496e6f') in 0.051207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_up.png
+  artifactKey: Guid(23434846625707a47a591d9f045898fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_up.png using Guid(23434846625707a47a591d9f045898fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c02315c569b0ccdffa898331e26d644') in 0.052897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_down.png
+  artifactKey: Guid(a75e09f09d7d9534a89ffd4ef071b436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_down.png using Guid(a75e09f09d7d9534a89ffd4ef071b436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5876658489b9e04ab24ee1a4e34b06d1') in 0.079479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_down.png
+  artifactKey: Guid(f1c4c6bce19b05f48aa26fb0b06fd7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_down.png using Guid(f1c4c6bce19b05f48aa26fb0b06fd7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f6a653d5fe2d04cb2cea2dd200f2a5') in 0.081200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonDisabled@2x.png
+  artifactKey: Guid(1f3ea4caa6e0ec74388e4d7d16690e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonDisabled@2x.png using Guid(1f3ea4caa6e0ec74388e4d7d16690e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5b33dd2b4c013c3dabcabe6bfe2262') in 0.065103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_up.png
+  artifactKey: Guid(20aa0f234461fbc46ae6fe91f504e2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_up.png using Guid(20aa0f234461fbc46ae6fe91f504e2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4800a7202168b02fbc7624c07366edf1') in 0.055645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3.png
+  artifactKey: Guid(46930b20180b59e46b73494adf53abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3.png using Guid(46930b20180b59e46b73494adf53abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff77bd0233ce1739decc6324ad2308') in 0.055241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonEnabled.png
+  artifactKey: Guid(fbcdeb07ee516a64daa01ce462874280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonEnabled.png using Guid(fbcdeb07ee516a64daa01ce462874280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4a396cb17c09f42b1d331f56202b26') in 0.048108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png
+  artifactKey: Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png using Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897686a056d8d47e976c33ac98a0eda7') in 0.055419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png
+  artifactKey: Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png using Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b886ee2cb209d8cbf2e4623c6e7033') in 0.056903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ground textures pack/Ground 02/diffuse.tga
+  artifactKey: Guid(cd4f831376722b54bbadd59ef7c6c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground 02/diffuse.tga using Guid(cd4f831376722b54bbadd59ef7c6c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67116945c9155cb0e8bee5c6f532615') in 0.086166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.570820 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconundo.png
+  artifactKey: Guid(98773313eabe35543bfdbf542ccea271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconundo.png using Guid(98773313eabe35543bfdbf542ccea271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b65d3a9b6d2418fc986dab97514ba7b') in 0.051110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296287 seconds.
+  path: Assets/Ground textures pack/Ground 01/preview.jpg
+  artifactKey: Guid(4e395003c6632ab4a8ad3a08d72ccb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground 01/preview.jpg using Guid(4e395003c6632ab4a8ad3a08d72ccb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff69466812dc4791ac1d9c0f797b48f') in 0.062942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004468 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Flowers_01.png
+  artifactKey: Guid(724a83e90c1cd7b4b9d1b71dd08962b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Flowers_01.png using Guid(724a83e90c1cd7b4b9d1b71dd08962b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a984ccdb182cfdf205fc2ddac77f5ba') in 0.094186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png
+  artifactKey: Guid(d2f321fff7f05aa49ad106541e997dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png using Guid(d2f321fff7f05aa49ad106541e997dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35986710826eb5787bd238bdb11ef610') in 0.077545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155609 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_01.png
+  artifactKey: Guid(1b92b31acbcdce24ba9dc6d01dbc2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_01.png using Guid(1b92b31acbcdce24ba9dc6d01dbc2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3251b88fc0591780b7c4ccb209a9e670') in 0.067036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_High_01.png
+  artifactKey: Guid(b458cb1c79cb9894196830046f2621fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_High_01.png using Guid(b458cb1c79cb9894196830046f2621fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c941f1b14cfaada1fb9a81a52c2ce508') in 0.064876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039315 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Generic_03.png
+  artifactKey: Guid(e0b09c625cee17a48b22b2cf949cd320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Generic_03.png using Guid(e0b09c625cee17a48b22b2cf949cd320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fbea6dabb93915985b4b670cefdd9d') in 0.106614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Mushrooms_01.png
+  artifactKey: Guid(9a9ed1d4f54a1ce4a9331c6a1a926976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Mushrooms_01.png using Guid(9a9ed1d4f54a1ce4a9331c6a1a926976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbc90bafdfc92d15b4a16d9c5d2abfd') in 0.077676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png
+  artifactKey: Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png using Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1342afab0ac7e9b5cd4a7032e3bb5a9f') in 0.062616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_texture.tga
+  artifactKey: Guid(16357eda3fc18dd459a8218b92769643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_texture.tga using Guid(16357eda3fc18dd459a8218b92769643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359742efa864eb89754dc0909b9254b5') in 0.054737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Runes_02.png
+  artifactKey: Guid(d329461fd2714384088c78ea5f4c2765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Runes_02.png using Guid(d329461fd2714384088c78ea5f4c2765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96976b2828a0d32e8fc8f142c29fc5d6') in 0.086023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.724224 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_ff4b5190-b520-4d46-b960-ee1d0967df26.asset
+  artifactKey: Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_ff4b5190-b520-4d46-b960-ee1d0967df26.asset using Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977c3074ead4a85929d23e013846df3') in 0.090197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_88efe361-6f68-4188-bcd0-e9554ca440b9.asset
+  artifactKey: Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_88efe361-6f68-4188-bcd0-e9554ca440b9.asset using Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357e2d3c0cf56d026bd09c7060418a73') in 0.062699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_6dc76592-a48a-4163-91df-c29ec1a99c66.asset
+  artifactKey: Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_6dc76592-a48a-4163-91df-c29ec1a99c66.asset using Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a6fb323ef885032d823e6f3fb9a1fe') in 0.055399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_445999c2-5240-4b5c-9394-4cacb62d7eec.asset
+  artifactKey: Guid(1587ce82db2499e4185b7701bf0d532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/TerrainData_445999c2-5240-4b5c-9394-4cacb62d7eec.asset using Guid(1587ce82db2499e4185b7701bf0d532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcb638fcd518e7c649070781a35a3f3') in 0.066408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.900416 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled@2x.png
+  artifactKey: Guid(b8c531b4e51e4994a81837c4e9b0d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled@2x.png using Guid(b8c531b4e51e4994a81837c4e9b0d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4df682f4905bf57f8451e062314c13') in 0.046401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled@2x.png
+  artifactKey: Guid(db31466324572e740a431e4e0e03a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled@2x.png using Guid(db31466324572e740a431e4e0e03a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e102e749b6a47c9217a79c81fb0fb38') in 0.038526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled@2x.png
+  artifactKey: Guid(512aaee9b220348408a2e518f98d6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled@2x.png using Guid(512aaee9b220348408a2e518f98d6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d3b7ca58c95a9869397fe210f90e7d') in 0.048083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png
+  artifactKey: Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png using Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe91eb42f3313017a4c56c13e6ed92e') in 0.032951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png
+  artifactKey: Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png using Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79fc2a9060c7c34ebbd8684f32bf02a') in 0.041391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.518710 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overcorrupted_right.terrainlayer
+  artifactKey: Guid(94bd4356f0397844b86cc42bed9f66c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overcorrupted_right.terrainlayer using Guid(94bd4356f0397844b86cc42bed9f66c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705a6116986e2dcdd54199ac3917c32f') in 0.214571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_up.terrainlayer
+  artifactKey: Guid(ed58adfb5ac840849b177a27f87a058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_up.terrainlayer using Guid(ed58adfb5ac840849b177a27f87a058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606e91f7050dd2bbfd30664c556ae210') in 0.058167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.583959 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_down.terrainlayer
+  artifactKey: Guid(68e602da48e73564e9f8e9125f0b8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_down.terrainlayer using Guid(68e602da48e73564e9f8e9125f0b8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1623fec90920960bbe5833f98811b318') in 0.037601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.054321 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_01.terrainlayer
+  artifactKey: Guid(52ac57c2c14c60b4d88913beb57dce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_01.terrainlayer using Guid(52ac57c2c14c60b4d88913beb57dce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e184659cecc257af89d090d7e8bc9d') in 0.057664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/BasAssetStore/LowPolyVillage/Meshes/Other_Objects/NewLayer.terrainlayer
+  artifactKey: Guid(acc24224ee8a666499b11686c48edb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasAssetStore/LowPolyVillage/Meshes/Other_Objects/NewLayer.terrainlayer using Guid(acc24224ee8a666499b11686c48edb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aa71ae967c86dc26bcf3f421b8c3d9') in 0.050625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387340 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 1.terrainlayer
+  artifactKey: Guid(0cafbabc50bb41a49b63a39566fbea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 1.terrainlayer using Guid(0cafbabc50bb41a49b63a39566fbea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ed129e3303a245b12272780dbbab82') in 0.037165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066015 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 3.terrainlayer
+  artifactKey: Guid(84b7b834be2edbb4f8b44031fb25e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 3.terrainlayer using Guid(84b7b834be2edbb4f8b44031fb25e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c14ebef998ed10da542465b2341a5') in 0.033144 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
